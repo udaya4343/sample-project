@@ -1,59 +1,67 @@
-name: Bug Report
-about: File a bug report
-title: "[Bug]: "
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true.
+name: Bug Report.
+
+about: Create a detailed bug report to help us improve the project.
+
+title: "[Bug] "
+
+labels: bug
+
+assignees:
+  -  
+body: |
+
+  **Description:**
+
+  [A clear and concise description of the bug, including its impact and significance.]
+
+  **Steps to Reproduce:**
+
+  1. [Step 1]
+  2. [Step 2]
+  3. [Step 3]
+
+  **Expected Behavior:**
+
+  [A clear and concise description of what you expected to happen.]
+
+  **Actual Behavior:**
+
+  [A clear and concise description of what actually happened.]
+
+  **Reproducibility:**
+  
+  - [ ] Always
+  - [ ] Sometimes
+  - [ ] Rarely
+  - [ ] Unable to Reproduce
+
+  **Severity:**
+  
+  - [ ] Critical
+  - [ ] Major
+  - [ ] Minor
+  - [ ] Trivial
+  - [ ] Cosmetic
+
+  **Environment:**
+
+  - OS: [e.g., Windows 10]
+  - Browser: [e.g., Chrome 88]
+
+  **Attachments:**
+
+  [If applicable, add any relevant files, logs, or screenshots here.]
+
+  **Possible Solutions:**
+
+  [If you have any ideas on how to fix the bug or work around it, include them here.]
+
+  **Related Issues:**
+
+  - # [issue number]
+
+
+  **Acceptance Criteria:**
+
+  [If there are specific criteria that need to be met for this bug to be considered resolved, list them here.]
+
