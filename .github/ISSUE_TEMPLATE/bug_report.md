@@ -1,16 +1,13 @@
-name: Bug Report.
-
-about: Create a detailed bug report to help us improve the project.
-
-title: "[Bug] "
-
+---
+name: Bug report
+about: Create a report to help us improve
+title: Bugs
 labels: bug
+assignees: ''
 
-assignees:
-  -  
-body: |
+---
 
-  **Description:**
+**Description:**
 
   [A clear and concise description of the bug, including its impact and significance.]
 
@@ -47,10 +44,16 @@ body: |
 
   - OS: [e.g., Windows 10]
   - Browser: [e.g., Chrome 88]
+  - App Version: [e.g., 1.0.0]
+  - Hardware: [e.g., iPhone 12]
 
   **Attachments:**
 
   [If applicable, add any relevant files, logs, or screenshots here.]
+
+  **Additional Information:**
+
+  [Provide any additional context, troubleshooting steps, or workarounds.]
 
   **Possible Solutions:**
 
@@ -60,8 +63,14 @@ body: |
 
   - # [issue number]
 
+  **Epic/Feature:**
+
+  [If this bug is related to a specific epic or feature, mention it here.]
+
+  **Time Estimation:**
+
+  [If you can estimate the time required to fix this bug, mention it here.]
 
   **Acceptance Criteria:**
 
   [If there are specific criteria that need to be met for this bug to be considered resolved, list them here.]
-
